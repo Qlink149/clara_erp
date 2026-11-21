@@ -34,3 +34,5 @@ base44/.app.jsonc
 .vercel
 .env.local
 data/initial-passwords.txt
+
+data/
