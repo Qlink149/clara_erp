@@ -1,0 +1,48 @@
+{
+  "name": "KPI",
+  "type": "object",
+  "properties": {
+    "teamMemberId": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "targetType": {
+      "type": "string",
+      "enum": [
+        "number",
+        "yes_no"
+      ],
+      "default": "number"
+    },
+    "targetValue": {
+      "type": "number"
+    },
+    "frequency": {
+      "type": "string",
+      "enum": [
+        "Weekly",
+        "Monthly"
+      ],
+      "default": "Monthly"
+    },
+    "weightage": {
+      "type": "number",
+      "default": 10
+    },
+    "isActive": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "required": [
+    "teamMemberId",
+    "name",
+    "frequency",
+    "weightage"
+  ]
+}

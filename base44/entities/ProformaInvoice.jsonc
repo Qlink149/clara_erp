@@ -1,0 +1,127 @@
+{
+  "name": "ProformaInvoice",
+  "type": "object",
+  "properties": {
+    "invoiceNumber": {
+      "type": "number"
+    },
+    "invoiceDate": {
+      "type": "string"
+    },
+    "clientId": {
+      "type": "string"
+    },
+    "scheduleEntryId": {
+      "type": "string",
+      "description": "Linked InvoiceEntry id if from calendar; blank for ad-hoc"
+    },
+    "sellerName": {
+      "type": "string"
+    },
+    "sellerAddress": {
+      "type": "string"
+    },
+    "sellerGSTIN": {
+      "type": "string"
+    },
+    "sellerPAN": {
+      "type": "string"
+    },
+    "sellerStateName": {
+      "type": "string"
+    },
+    "sellerStateCode": {
+      "type": "string"
+    },
+    "sellerEmail": {
+      "type": "string"
+    },
+    "buyerName": {
+      "type": "string"
+    },
+    "buyerAddress": {
+      "type": "string"
+    },
+    "buyerGSTIN": {
+      "type": "string"
+    },
+    "buyerPAN": {
+      "type": "string"
+    },
+    "buyerStateName": {
+      "type": "string"
+    },
+    "buyerStateCode": {
+      "type": "string"
+    },
+    "lineItems": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "taxableAmount": {
+      "type": "number"
+    },
+    "taxType": {
+      "type": "string",
+      "enum": [
+        "IGST",
+        "CGST+SGST"
+      ]
+    },
+    "taxRate": {
+      "type": "number"
+    },
+    "taxAmount": {
+      "type": "number"
+    },
+    "totalAmount": {
+      "type": "number"
+    },
+    "gstApplicable": {
+      "type": "boolean",
+      "default": true
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "Draft",
+        "Generated",
+        "Sent",
+        "Paid"
+      ],
+      "default": "Draft"
+    },
+    "deliveryNote": {
+      "type": "string"
+    },
+    "paymentTerms": {
+      "type": "string"
+    },
+    "referenceNo": {
+      "type": "string"
+    },
+    "pdfUrl": {
+      "type": "string"
+    },
+    "discountType": {
+      "type": "string",
+      "enum": [
+        "percentage",
+        "fixed"
+      ]
+    },
+    "discountValue": {
+      "type": "number"
+    },
+    "discountAmount": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "invoiceNumber",
+    "invoiceDate",
+    "clientId"
+  ]
+}

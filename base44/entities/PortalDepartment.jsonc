@@ -1,0 +1,46 @@
+{
+  "name": "PortalDepartment",
+  "type": "object",
+  "properties": {
+    "portal_client_id": {
+      "type": "string"
+    },
+    "department_name": {
+      "type": "string"
+    },
+    "department_description": {
+      "type": "string"
+    },
+    "section_group": {
+      "type": "string",
+      "description": "Parent section this department belongs to"
+    },
+    "head": {
+      "type": "string",
+      "description": "Department head name and role"
+    },
+    "key_systems": {
+      "type": "string"
+    },
+    "works_closely_with": {
+      "type": "string"
+    },
+    "employee_count": {
+      "type": "number"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "Discovery",
+        "In Progress",
+        "Delivered",
+        "On Hold"
+      ],
+      "default": "Discovery"
+    }
+  },
+  "required": [
+    "portal_client_id",
+    "department_name"
+  ]
+}

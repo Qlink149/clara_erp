@@ -1,0 +1,77 @@
+{
+  "name": "PortalDataSource",
+  "type": "object",
+  "properties": {
+    "form_id": {
+      "type": "string"
+    },
+    "source_name": {
+      "type": "string"
+    },
+    "owning_team": {
+      "type": "string"
+    },
+    "system": {
+      "type": "string",
+      "enum": [
+        "",
+        "ERP",
+        "CRM",
+        "POS",
+        "Database",
+        "Spreadsheet on server",
+        "Cloud spreadsheet",
+        "Messaging app",
+        "Email",
+        "Paper",
+        "Verbal",
+        "Other"
+      ]
+    },
+    "format": {
+      "type": "string",
+      "enum": [
+        "",
+        "API",
+        "Database",
+        "Excel-CSV",
+        "PDF",
+        "Images",
+        "Free text",
+        "Verbal"
+      ]
+    },
+    "structure": {
+      "type": "string",
+      "enum": [
+        "",
+        "Fixed rows & columns",
+        "Semi-structured",
+        "Freehand"
+      ]
+    },
+    "data_cleanliness": {
+      "type": "string",
+      "enum": [
+        "",
+        "Clean",
+        "Needs cleaning",
+        "Unknown"
+      ]
+    },
+    "access_method": {
+      "type": "string",
+      "enum": [
+        "",
+        "API available",
+        "Export only",
+        "Manual download",
+        "No direct access"
+      ],
+      "description": "INTERNAL ONLY"
+    }
+  },
+  "required": [
+    "form_id"
+  ]
+}

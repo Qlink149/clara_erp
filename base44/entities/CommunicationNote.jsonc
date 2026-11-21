@@ -1,0 +1,31 @@
+{
+  "name": "CommunicationNote",
+  "type": "object",
+  "properties": {
+    "email": {
+      "type": "string"
+    },
+    "client_id": {
+      "type": "string"
+    },
+    "engagement_id": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "submitted_at": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "email",
+    "message"
+  ]
+}

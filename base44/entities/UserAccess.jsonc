@@ -1,0 +1,48 @@
+{
+  "name": "UserAccess",
+  "type": "object",
+  "properties": {
+    "email": {
+      "type": "string"
+    },
+    "client_id": {
+      "type": "string"
+    },
+    "engagement_id": {
+      "type": "string"
+    },
+    "granted_by": {
+      "type": "string"
+    },
+    "granted_at": {
+      "type": "string"
+    },
+    "is_active": {
+      "type": "boolean",
+      "default": true
+    },
+    "user_type": {
+      "type": "string",
+      "enum": [
+        "employee",
+        "client",
+        "super_admin"
+      ],
+      "default": "employee"
+    },
+    "linked_client_id": {
+      "type": "string"
+    },
+    "portal_access_level": {
+      "type": "string",
+      "enum": [
+        "full",
+        "summary"
+      ]
+    }
+  },
+  "required": [
+    "email",
+    "client_id"
+  ]
+}

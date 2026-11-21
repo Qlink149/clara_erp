@@ -1,0 +1,61 @@
+{
+  "name": "PortalMeeting",
+  "type": "object",
+  "properties": {
+    "use_case_id": {
+      "type": "string"
+    },
+    "meeting_title": {
+      "type": "string"
+    },
+    "meeting_date": {
+      "type": "string"
+    },
+    "meeting_type": {
+      "type": "string",
+      "enum": [
+        "Discovery",
+        "Follow-up",
+        "Demo",
+        "Review",
+        "Handover"
+      ],
+      "default": "Discovery"
+    },
+    "recording_link": {
+      "type": "string"
+    },
+    "transcript_link": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "clara_team_present": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "client_attendees": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "Scheduled",
+        "Completed",
+        "Cancelled",
+        "Rescheduled"
+      ],
+      "default": "Scheduled"
+    }
+  },
+  "required": [
+    "use_case_id",
+    "meeting_title"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Task",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "clientId": {
+      "type": "string"
+    },
+    "engagementId": {
+      "type": "string"
+    },
+    "assigneeId": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "Not Started",
+        "In Progress",
+        "Completed",
+        "Blocked",
+        "On Hold"
+      ],
+      "default": "Not Started"
+    },
+    "priority": {
+      "type": "string",
+      "enum": [
+        "Low",
+        "Medium",
+        "High",
+        "Urgent"
+      ],
+      "default": "Medium"
+    },
+    "deadline": {
+      "type": "string"
+    },
+    "timeAllocated": {
+      "type": "number"
+    },
+    "timeTaken": {
+      "type": "number"
+    },
+    "dateCompleted": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "name"
+  ]
+}

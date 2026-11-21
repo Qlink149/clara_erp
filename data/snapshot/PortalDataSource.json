@@ -1,0 +1,47 @@
+[
+  {
+    "owning_team": "External vendors (~25)",
+    "access_method": "No direct access",
+    "system": "Messaging app",
+    "form_id": "6a521ef287fb4fec6c5e267c",
+    "format": "Free text",
+    "data_cleanliness": "Unknown",
+    "source_name": "Vendor communications",
+    "structure": "Freehand",
+    "id": "6a521ef20be05c10b7eb757c",
+    "created_date": "2026-07-11T10:46:10.885000",
+    "updated_date": "2026-07-11T10:46:10.885000",
+    "created_by_id": "service_451869b2-59a2-40cc-b333-9a7c73afd593",
+    "is_sample": false
+  },
+  {
+    "owning_team": "Sales & Support",
+    "access_method": "Manual download",
+    "system": "Spreadsheet on server",
+    "form_id": "6a521ef287fb4fec6c5e267c",
+    "format": "Excel-CSV",
+    "data_cleanliness": "Needs cleaning",
+    "source_name": "Server-based Excel files",
+    "structure": "Semi-structured",
+    "id": "6a521ef20be05c10b7eb757b",
+    "created_date": "2026-07-11T10:46:10.885000",
+    "updated_date": "2026-07-11T10:46:10.885000",
+    "created_by_id": "service_451869b2-59a2-40cc-b333-9a7c73afd593",
+    "is_sample": false
+  },
+  {
+    "owning_team": "IT",
+    "access_method": "Export only",
+    "system": "ERP",
+    "form_id": "6a521ef287fb4fec6c5e267c",
+    "format": "Database",
+    "data_cleanliness": "Clean",
+    "source_name": "Kisna Force",
+    "structure": "Fixed rows & columns",
+    "id": "6a521ef20be05c10b7eb757a",
+    "created_date": "2026-07-11T10:46:10.885000",
+    "updated_date": "2026-07-11T10:46:10.885000",
+    "created_by_id": "service_451869b2-59a2-40cc-b333-9a7c73afd593",
+    "is_sample": false
+  }
+]

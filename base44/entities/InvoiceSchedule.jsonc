@@ -1,0 +1,50 @@
+{
+  "name": "InvoiceSchedule",
+  "type": "object",
+  "properties": {
+    "clientId": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string",
+      "description": "Engagement / invoice title"
+    },
+    "amount": {
+      "type": "number"
+    },
+    "firstInvoiceDate": {
+      "type": "string",
+      "description": "Date the engagement started (first invoice date)"
+    },
+    "billingCycle": {
+      "type": "string",
+      "enum": [
+        "One-time",
+        "10 days",
+        "15 days",
+        "30 days",
+        "60 days",
+        "Monthly",
+        "Quarterly",
+        "6 months",
+        "Yearly"
+      ],
+      "default": "Monthly"
+    },
+    "gstApplicable": {
+      "type": "boolean",
+      "default": true
+    },
+    "isActive": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "required": [
+    "clientId",
+    "description",
+    "amount",
+    "firstInvoiceDate",
+    "billingCycle"
+  ]
+}

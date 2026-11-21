@@ -1,0 +1,18 @@
+{
+  "name": "PortalException",
+  "type": "object",
+  "properties": {
+    "form_id": {
+      "type": "string"
+    },
+    "condition": {
+      "type": "string"
+    },
+    "current_handling": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "form_id"
+  ]
+}

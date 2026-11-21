@@ -1,0 +1,50 @@
+{
+  "name": "InvoiceEntry",
+  "type": "object",
+  "properties": {
+    "scheduleId": {
+      "type": "string"
+    },
+    "clientId": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "number"
+    },
+    "dueDate": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "Pending",
+        "Generated",
+        "Sent",
+        "Received"
+      ],
+      "default": "Pending"
+    },
+    "invoiceNumber": {
+      "type": "number"
+    },
+    "pdfUrl": {
+      "type": "string"
+    },
+    "gstApplicable": {
+      "type": "boolean",
+      "default": true
+    },
+    "generatedAt": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "clientId",
+    "description",
+    "amount",
+    "dueDate"
+  ]
+}

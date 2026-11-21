@@ -1,0 +1,100 @@
+[
+  {
+    "meeting_title": "Demo Walkthrough — Kisna One v2",
+    "recording_link": "https://drive.google.com/file/d/140oHI-00-3HWTK6ClIDMKuNUWmPbBlXw/view?usp=sharing",
+    "notes": "All notifications finalized to route via Kisna WhatsApp number (WhatsApp API). Dashboard-dependent vendor engagement — only work with vendors who adopt the portal. Operational variance timeline widened 5→7 days due to product variability (~15–18%) and 21-day merch customization delay observed.",
+    "use_case_id": "6a521ef2128e4934770b2011",
+    "transcript_link": "https://docs.google.com/document/d/1-9YUjeaZ2U15edrKN-ovRW6Kusj5nSYKmjgScrp9jO0/edit?usp=sharing",
+    "meeting_type": "Demo",
+    "client_attendees": [
+      "Samadhan Abhang",
+      "Heet Dholakia",
+      "Ruvin Dholakiya",
+      "Vikrant Mohite"
+    ],
+    "meeting_date": "2026-06-17",
+    "clara_team_present": [
+      "Yogansh Banthia",
+      "Laksh",
+      "Siddhi"
+    ],
+    "status": "Completed",
+    "id": "6a521ef2b6ff4f7fac4faf36",
+    "created_date": "2026-07-11T10:46:10.617000",
+    "updated_date": "2026-07-11T10:46:10.617000",
+    "created_by_id": "service_451869b2-59a2-40cc-b333-9a7c73afd593",
+    "is_sample": false
+  },
+  {
+    "meeting_title": "Solution v1 Review",
+    "recording_link": "https://drive.google.com/file/d/1IMKLqaSTazNBB-1WlQyCT6NZ5NaWrSyJ/view?usp=sharing",
+    "notes": "Demo development approved. Key decision: merchandising to get its own dashboard view within Kisna One.",
+    "use_case_id": "6a521ef2128e4934770b2011",
+    "transcript_link": "https://docs.google.com/document/d/1w0Pdu39el6h8IBFN1_Wc_K1Y91AbbtiUlZmNNTo6vMQ/edit?usp=sharing",
+    "meeting_type": "Review",
+    "client_attendees": [
+      "Samadhan Abhang",
+      "Heet Dholakia",
+      "Ruvin Dholakiya"
+    ],
+    "meeting_date": "2026-06-09",
+    "clara_team_present": [
+      "Yogansh Banthia",
+      "Laksh",
+      "Siddhi"
+    ],
+    "status": "Completed",
+    "id": "6a521ef2b6ff4f7fac4faf35",
+    "created_date": "2026-07-11T10:46:10.617000",
+    "updated_date": "2026-07-11T10:46:10.617000",
+    "created_by_id": "service_451869b2-59a2-40cc-b333-9a7c73afd593",
+    "is_sample": false
+  },
+  {
+    "meeting_title": "Discovery Call — Sales & Support",
+    "recording_link": "https://drive.google.com/file/d/1jcAaulASGjDdMwo_WENJ1l5R6NMAOxPg/view?usp=sharing",
+    "notes": "Summary: https://docs.google.com/document/d/1dHBXwZzfuAGATfdkHHaPCl0yqZ5FxfLzXeAOJ6-r5U0/edit?usp=sharing — Captured the full as-is process, payment/dispatch trigger logic, 7-day regular order rule, custom order cap (3), instant vendor delay/QC-fail notification, auto-dispatch on payment, priority follow-up for poor payment health, communication routing protocol, franchise suggested-ordering, urgent-order vendor notification.",
+    "use_case_id": "6a521ef2128e4934770b2011",
+    "transcript_link": "https://drive.google.com/file/d/1kNLpaGsI6PCsGvrEVTgg3vZUzOA5G8p3/view?usp=sharing",
+    "meeting_type": "Discovery",
+    "client_attendees": [
+      "Samadhan Abhang",
+      "Heet Dholakia",
+      "Ruvin Dholakiya",
+      "Sanket Dumbre",
+      "Niharranjan",
+      "Sharad Sarvankar",
+      "Vikrant Mohite",
+      "Paresh Patel"
+    ],
+    "meeting_date": "2026-05-30",
+    "clara_team_present": [
+      "Yogansh Banthia",
+      "Laksh",
+      "Siddhi"
+    ],
+    "status": "Completed",
+    "id": "6a521ef2b6ff4f7fac4faf34",
+    "created_date": "2026-07-11T10:46:10.617000",
+    "updated_date": "2026-07-11T11:11:16.277000",
+    "created_by_id": "service_451869b2-59a2-40cc-b333-9a7c73afd593",
+    "is_sample": false
+  },
+  {
+    "meeting_title": "Discovery Call — L&D",
+    "recording_link": null,
+    "notes": null,
+    "use_case_id": "6a551a57fb0d25499ab6feea",
+    "transcript_link": null,
+    "meeting_type": "Discovery",
+    "client_attendees": [],
+    "meeting_date": "2026-07-13",
+    "clara_team_present": [],
+    "status": "Scheduled",
+    "id": "6a551a8dcef74e012d1dca2d",
+    "created_date": "2026-07-13T17:04:13.198000",
+    "updated_date": "2026-07-13T17:04:13.198000",
+    "created_by_id": "69eb4f8de0c00142b71ff6bc",
+    "is_sample": false
+  }
+]

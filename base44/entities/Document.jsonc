@@ -1,0 +1,36 @@
+{
+  "name": "Document",
+  "type": "object",
+  "properties": {
+    "clientId": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "fileUrl": {
+      "type": "string"
+    },
+    "fileType": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "deleted": {
+      "type": "boolean",
+      "default": false
+    },
+    "client_visible": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "required": [
+    "clientId",
+    "name"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "PortalEscalationMatrix",
+  "type": "object",
+  "properties": {
+    "form_id": {
+      "type": "string"
+    },
+    "event": {
+      "type": "string"
+    },
+    "who_informed": {
+      "type": "string"
+    },
+    "channel": {
+      "type": "string"
+    },
+    "who_must_not_be_informed": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "form_id"
+  ]
+}

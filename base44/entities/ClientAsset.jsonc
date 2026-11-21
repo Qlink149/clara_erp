@@ -1,0 +1,43 @@
+{
+  "name": "ClientAsset",
+  "type": "object",
+  "properties": {
+    "clientId": {
+      "type": "string"
+    },
+    "assetType": {
+      "type": "string",
+      "enum": [
+        "GitHub Repo",
+        "Live Website",
+        "Admin Dashboard",
+        "API Docs",
+        "Design File",
+        "Database",
+        "Hosting Account",
+        "Domain Registrar",
+        "Cloud Storage",
+        "Other"
+      ]
+    },
+    "assetTypeCustom": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "accountUsername": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "clientId",
+    "label"
+  ]
+}

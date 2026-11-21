@@ -1,0 +1,128 @@
+{
+  "name": "PortalDiscoveryForm",
+  "type": "object",
+  "properties": {
+    "use_case_id": {
+      "type": "string"
+    },
+    "time_per_cycle": {
+      "type": "string"
+    },
+    "frequency": {
+      "type": "string"
+    },
+    "volume_per_cycle": {
+      "type": "string"
+    },
+    "people_involved": {
+      "type": "string"
+    },
+    "monthly_cost_band": {
+      "type": "string",
+      "enum": [
+        "",
+        "<\u20b950K",
+        "\u20b950K\u2013\u20b91L",
+        "\u20b91L\u2013\u20b93L",
+        "\u20b93L\u2013\u20b95L",
+        "\u20b95L+"
+      ],
+      "description": "INTERNAL ONLY"
+    },
+    "error_rate": {
+      "type": "string"
+    },
+    "process_stability": {
+      "type": "string",
+      "enum": [
+        "",
+        "Unchanged 12+ months",
+        "Minor changes",
+        "Changes often"
+      ],
+      "description": "INTERNAL ONLY"
+    },
+    "seasonality": {
+      "type": "string"
+    },
+    "trigger": {
+      "type": "string"
+    },
+    "infrastructure_overview": {
+      "type": "string"
+    },
+    "sample_data_received": {
+      "type": "boolean",
+      "default": false
+    },
+    "sample_data_file": {
+      "type": "string",
+      "description": "INTERNAL ONLY - file url"
+    },
+    "workarounds": {
+      "type": "string"
+    },
+    "goal_statement": {
+      "type": "string"
+    },
+    "desired_output_type": {
+      "type": "string",
+      "enum": [
+        "",
+        "Dashboard",
+        "Report",
+        "Notification flow",
+        "Auto-action",
+        "File",
+        "Other"
+      ]
+    },
+    "desired_output": {
+      "type": "string"
+    },
+    "desired_look": {
+      "type": "string"
+    },
+    "desired_look_file": {
+      "type": "string"
+    },
+    "accuracy_bar": {
+      "type": "string",
+      "enum": [
+        "",
+        "100% deterministic",
+        "95\u201399%",
+        "85\u201395% with human review"
+      ],
+      "description": "INTERNAL ONLY"
+    },
+    "must_haves": {
+      "type": "string"
+    },
+    "nice_to_haves": {
+      "type": "string"
+    },
+    "success_metric": {
+      "type": "string"
+    },
+    "integration_boundaries": {
+      "type": "string",
+      "description": "INTERNAL ONLY"
+    },
+    "approvals_needed": {
+      "type": "string",
+      "description": "INTERNAL ONLY"
+    },
+    "data_sensitivity": {
+      "type": "string",
+      "description": "INTERNAL ONLY"
+    },
+    "open_questions": {
+      "type": "string",
+      "description": "INTERNAL ONLY"
+    }
+  },
+  "required": [
+    "use_case_id"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Engagement",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "clientId": {
+      "type": "string"
+    },
+    "assigneeId": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "startDate": {
+      "type": "string"
+    },
+    "endDate": {
+      "type": "string"
+    },
+    "archived": {
+      "type": "boolean",
+      "default": false
+    },
+    "poc": {
+      "type": "object"
+    },
+    "paymentSprints": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "githubRepos": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "credentials": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "deployments": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "techStack": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "name",
+    "clientId"
+  ]
+}

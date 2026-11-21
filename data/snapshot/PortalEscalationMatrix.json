@@ -1,0 +1,62 @@
+[
+  {
+    "form_id": "6a521ef287fb4fec6c5e267c",
+    "channel": "Dashboard + WhatsApp (vendor); Kisna Force + WhatsApp (store)",
+    "who_must_not_be_informed": "",
+    "who_informed": "Vendor + Store",
+    "event": "QC failure",
+    "id": "6a521ef20fa254b4ac628e83",
+    "created_date": "2026-07-11T10:46:10.913000",
+    "updated_date": "2026-07-11T10:46:10.913000",
+    "created_by_id": "service_451869b2-59a2-40cc-b333-9a7c73afd593",
+    "is_sample": false
+  },
+  {
+    "form_id": "6a521ef287fb4fec6c5e267c",
+    "channel": "WhatsApp + Kisna Force",
+    "who_must_not_be_informed": "",
+    "who_informed": "Store manager (directly)",
+    "event": "Dispatch status / delivery delay",
+    "id": "6a521ef20fa254b4ac628e80",
+    "created_date": "2026-07-11T10:46:10.913000",
+    "updated_date": "2026-07-11T10:46:10.913000",
+    "created_by_id": "service_451869b2-59a2-40cc-b333-9a7c73afd593",
+    "is_sample": false
+  },
+  {
+    "form_id": "6a521ef287fb4fec6c5e267c",
+    "channel": "WhatsApp + email",
+    "who_must_not_be_informed": "Store manager (to avoid embarrassment and protect customer experience)",
+    "who_informed": "Franchise partners / AOMs / Support team",
+    "event": "Payment reminder",
+    "id": "6a521ef20fa254b4ac628e81",
+    "created_date": "2026-07-11T10:46:10.913000",
+    "updated_date": "2026-07-11T10:46:10.913000",
+    "created_by_id": "service_451869b2-59a2-40cc-b333-9a7c73afd593",
+    "is_sample": false
+  },
+  {
+    "form_id": "6a521ef287fb4fec6c5e267c",
+    "channel": "Internal",
+    "who_must_not_be_informed": "Store manager directly",
+    "who_informed": "Internal priority follow-up team",
+    "event": "Poor payment health follow-up",
+    "id": "6a521ef20fa254b4ac628e84",
+    "created_date": "2026-07-11T10:46:10.913000",
+    "updated_date": "2026-07-11T10:46:10.913000",
+    "created_by_id": "service_451869b2-59a2-40cc-b333-9a7c73afd593",
+    "is_sample": false
+  },
+  {
+    "form_id": "6a521ef287fb4fec6c5e267c",
+    "channel": "In-app + WhatsApp",
+    "who_must_not_be_informed": "",
+    "who_informed": "Kisna sales & support team + area/store responsible person",
+    "event": "Vendor delay on specific order",
+    "id": "6a521ef20fa254b4ac628e82",
+    "created_date": "2026-07-11T10:46:10.913000",
+    "updated_date": "2026-07-11T10:46:10.913000",
+    "created_by_id": "service_451869b2-59a2-40cc-b333-9a7c73afd593",
+    "is_sample": false
+  }
+]

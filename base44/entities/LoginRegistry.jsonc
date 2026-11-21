@@ -1,0 +1,21 @@
+{
+  "name": "LoginRegistry",
+  "type": "object",
+  "properties": {
+    "email": {
+      "type": "string"
+    },
+    "display_name": {
+      "type": "string"
+    },
+    "first_login_at": {
+      "type": "string"
+    },
+    "last_login_at": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "email"
+  ]
+}

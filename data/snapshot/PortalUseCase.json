@@ -1,0 +1,38 @@
+[
+  {
+    "ecrs_recommendations": "Eliminate manual Excel updates and script downloads. Combine gold + diamond order tracking into one Kisna Force-integrated view. Rearrange communication routing so payment reminders bypass store managers and go to franchise partners / AOMs / support. Simplify vendor status updates through a single vendor dashboard.",
+    "process_diagram_url": null,
+    "suitability_score": 9,
+    "automation_type": "Rules + Workflow Automation",
+    "department_id": "6a52187690dd1bb28d76025c",
+    "process_name": "Outsourced Gold Order Management & Vendor Coordination",
+    "demo_link": "https://kisna-ss.claraai.tech/",
+    "solution_statement": "\"Kisna One\" — a centralized order management and vendor coordination dashboard with automated status tracking, multi-channel (WhatsApp + email + in-app) notifications, and Kisna Force integration, covering the full outsourced-gold-order lifecycle from receipt through dispatch.",
+    "problem_statement": "Kisna's 150+ stores route gold orders to ~25 outsourced vendors, but the order lifecycle is tracked in server-based Excel with manual scripts — leaving sales & support with no real-time visibility into vendor production, QC, payment or dispatch.",
+    "demo_prompt": "See internal notes — demo built by Siddhi on Base44 covering vendor assignment, QC review, 7-day payment reminder, WhatsApp bot via Kisna number, logistics tracking integration, role-based access across admin/order/QC/payment teams, and management analytics.",
+    "status": "POC",
+    "id": "6a521ef2128e4934770b2011",
+    "created_date": "2026-07-11T10:46:10.470000",
+    "updated_date": "2026-07-18T07:44:19.813000",
+    "created_by_id": "service_451869b2-59a2-40cc-b333-9a7c73afd593",
+    "is_sample": false
+  },
+  {
+    "ecrs_recommendations": null,
+    "process_diagram_url": null,
+    "suitability_score": null,
+    "automation_type": null,
+    "department_id": "6a52187690dd1bb28d76026d",
+    "process_name": "L&D",
+    "demo_link": null,
+    "solution_statement": null,
+    "problem_statement": "",
+    "demo_prompt": null,
+    "status": "Discovery",
+    "id": "6a551a57fb0d25499ab6feea",
+    "created_date": "2026-07-13T17:03:19.383000",
+    "updated_date": "2026-07-13T17:04:12.540000",
+    "created_by_id": "69eb4f8de0c00142b71ff6bc",
+    "is_sample": false
+  }
+]

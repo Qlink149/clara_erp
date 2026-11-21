@@ -1,0 +1,57 @@
+{
+  "name": "ClientDocument",
+  "type": "object",
+  "properties": {
+    "clientId": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "docType": {
+      "type": "string",
+      "enum": [
+        "Contract",
+        "NDA",
+        "MSA",
+        "SOW",
+        "Proposal",
+        "Amendment",
+        "Other"
+      ]
+    },
+    "docTypeCustom": {
+      "type": "string"
+    },
+    "fileUrl": {
+      "type": "string"
+    },
+    "fileName": {
+      "type": "string"
+    },
+    "signedDate": {
+      "type": "string"
+    },
+    "expiryDate": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "Active",
+        "Expired",
+        "Pending Signature",
+        "Renewed",
+        "Terminated"
+      ],
+      "default": "Active"
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "clientId",
+    "title"
+  ]
+}

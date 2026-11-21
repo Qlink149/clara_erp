@@ -1,0 +1,38 @@
+{
+  "name": "KPIProgress",
+  "type": "object",
+  "properties": {
+    "kpiId": {
+      "type": "string"
+    },
+    "teamMemberId": {
+      "type": "string"
+    },
+    "period": {
+      "type": "string"
+    },
+    "achievedValue": {
+      "type": "number"
+    },
+    "achievedYesNo": {
+      "type": "boolean"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "Completed",
+        "Partial",
+        "Not Done"
+      ],
+      "default": "Not Done"
+    },
+    "comments": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "kpiId",
+    "teamMemberId",
+    "period"
+  ]
+}

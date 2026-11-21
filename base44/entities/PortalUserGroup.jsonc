@@ -1,0 +1,39 @@
+{
+  "name": "PortalUserGroup",
+  "type": "object",
+  "properties": {
+    "form_id": {
+      "type": "string"
+    },
+    "group_name": {
+      "type": "string"
+    },
+    "tech_savviness": {
+      "type": "string",
+      "enum": [
+        "",
+        "High",
+        "Medium",
+        "Low",
+        "Messaging-app-only"
+      ]
+    },
+    "preferred_channel": {
+      "type": "string",
+      "enum": [
+        "",
+        "Dashboard",
+        "WhatsApp",
+        "Email",
+        "SMS",
+        "Other"
+      ]
+    },
+    "access_level": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "form_id"
+  ]
+}

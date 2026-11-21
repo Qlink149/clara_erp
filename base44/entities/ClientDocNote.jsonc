@@ -1,0 +1,15 @@
+{
+  "name": "ClientDocNote",
+  "type": "object",
+  "properties": {
+    "clientId": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "clientId"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "PortalProcessOwner",
+  "type": "object",
+  "properties": {
+    "use_case_id": {
+      "type": "string"
+    },
+    "person_name": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "department": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "string"
+    },
+    "person_type": {
+      "type": "string",
+      "enum": [
+        "Process Owner",
+        "Decision Maker",
+        "Stakeholder"
+      ],
+      "default": "Process Owner"
+    },
+    "enters_at_step": {
+      "type": "string"
+    },
+    "visibility": {
+      "type": "string",
+      "enum": [
+        "Client-visible",
+        "Internal-only"
+      ],
+      "default": "Client-visible"
+    }
+  },
+  "required": [
+    "use_case_id",
+    "person_name"
+  ]
+}

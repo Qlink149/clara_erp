@@ -1,0 +1,142 @@
+{
+  "name": "Client",
+  "type": "object",
+  "properties": {
+    "client_type": {
+      "type": "string",
+      "enum": [
+        "current",
+        "upcoming",
+        "past"
+      ],
+      "default": "current"
+    },
+    "name": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "industry": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "assignedTeam": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "internalNotes": {
+      "type": "string"
+    },
+    "lastUpdate": {
+      "type": "string"
+    },
+    "lastUpdateTime": {
+      "type": "string"
+    },
+    "billingStatus": {
+      "type": "string"
+    },
+    "projectStartDate": {
+      "type": "string"
+    },
+    "contractEndDate": {
+      "type": "string"
+    },
+    "primaryContact": {
+      "type": "object"
+    },
+    "secondaryContact": {
+      "type": "object"
+    },
+    "communication": {
+      "type": "object"
+    },
+    "pendingItems": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "activityLog": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "pipelineStage": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "assignedSales": {
+      "type": "string"
+    },
+    "expectedStartDate": {
+      "type": "string"
+    },
+    "lastTouchpoint": {
+      "type": "string"
+    },
+    "lastTouchpointSummary": {
+      "type": "string"
+    },
+    "nextAction": {
+      "type": "string"
+    },
+    "nextActionDate": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "closureReason": {
+      "type": "string"
+    },
+    "reEngagementNote": {
+      "type": "string"
+    },
+    "taskHistory": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "legalName": {
+      "type": "string",
+      "description": "Legal company name for invoices"
+    },
+    "billingAddress": {
+      "type": "string",
+      "description": "Full billing address"
+    },
+    "gstin": {
+      "type": "string",
+      "description": "GSTIN/UIN"
+    },
+    "pan": {
+      "type": "string",
+      "description": "PAN number"
+    },
+    "stateName": {
+      "type": "string",
+      "description": "State name for tax computation"
+    },
+    "stateCode": {
+      "type": "string",
+      "description": "State code (e.g. 27 for Maharashtra)"
+    }
+  },
+  "required": [
+    "name",
+    "client_type"
+  ]
+}

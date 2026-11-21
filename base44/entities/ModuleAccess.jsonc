@@ -1,0 +1,27 @@
+{
+  "name": "ModuleAccess",
+  "type": "object",
+  "properties": {
+    "email": {
+      "type": "string"
+    },
+    "module": {
+      "type": "string",
+      "enum": [
+        "invoice_calendar",
+        "kpi_tracker_view_own",
+        "proforma_invoices",
+        "documentation_edit",
+        "client_portal_admin"
+      ]
+    },
+    "is_granted": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "required": [
+    "email",
+    "module"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "name": "PortalUseCase",
+  "type": "object",
+  "properties": {
+    "department_id": {
+      "type": "string"
+    },
+    "process_name": {
+      "type": "string"
+    },
+    "problem_statement": {
+      "type": "string"
+    },
+    "solution_statement": {
+      "type": "string"
+    },
+    "demo_link": {
+      "type": "string"
+    },
+    "demo_prompt": {
+      "type": "string",
+      "description": "INTERNAL ONLY - never shown to client"
+    },
+    "automation_type": {
+      "type": "string"
+    },
+    "suitability_score": {
+      "type": "number"
+    },
+    "ecrs_recommendations": {
+      "type": "string"
+    },
+    "process_diagram_url": {
+      "type": "string",
+      "description": "Client-visible process diagram image url"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "Discovery",
+        "Solution Design",
+        "POC",
+        "Delivered",
+        "On Hold"
+      ],
+      "default": "Discovery"
+    }
+  },
+  "required": [
+    "department_id",
+    "process_name"
+  ]
+}
