@@ -9,7 +9,7 @@ import UpcomingClientDetail from '@/components/clients/UpcomingClientDetail';
 import PastClientDetail from '@/components/clients/PastClientDetail';
 import ClientAnalytics from '@/components/clients/ClientAnalytics';
 import AddClientModal from '@/components/clients/AddClientModal';
-import Drawer from '@/components/ui/Drawer';
+import Drawer from '@/components/ui/SideDrawer';
 
 const TABS = ['Current', 'Upcoming', 'Past', 'Analytics'];
 

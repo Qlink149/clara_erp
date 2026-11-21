@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Users, Plus, Mail, Phone, Briefcase, TrendingUp, CheckCircle, Clock, Star, Lock } from 'lucide-react';
 import { cn, getStatusColor, formatDate, daysFromToday } from '@/lib/utils';
 import { useStore } from '@/lib/StoreContext';
-import Drawer from '@/components/ui/Drawer';
+import Drawer from '@/components/ui/SideDrawer';
 import { InlineTextEdit, InlineSelectEdit, InlineDateEdit } from '@/components/ui/InlineEdit';
 import AddTeamMemberModal from '@/components/team/AddTeamMemberModal';
 import { useAuthorization } from '@/lib/AuthorizationContext';

@@ -1,5 +1,5 @@
 {
-  "name": "base44-app",
+  "name": "clara-erp",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,11 +9,12 @@
     "lint": "eslint . --quiet",
     "lint:fix": "eslint . --fix",
     "typecheck": "tsc -p ./jsconfig.json",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "import-data": "node --env-file-if-exists=.env --env-file-if-exists=.env.local scripts/import-data.mjs",
+    "set-password": "node --env-file-if-exists=.env --env-file-if-exists=.env.local scripts/set-password.mjs",
+    "dev:api": "vercel dev"
   },
   "dependencies": {
-    "@base44/sdk": "^0.8.63",
-    "@base44/vite-plugin": "^1.0.52",
     "@hello-pangea/dnd": "^17.0.0",
     "@hookform/resolvers": "^4.1.2",
     "@radix-ui/react-accordion": "^1.2.3",
@@ -46,6 +47,8 @@
     "@stripe/react-stripe-js": "^3.0.0",
     "@stripe/stripe-js": "^5.2.0",
     "@tanstack/react-query": "^5.84.1",
+    "@vercel/blob": "^2.9.0",
+    "bcryptjs": "^3.0.3",
     "canvas-confetti": "^1.9.4",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
@@ -55,10 +58,12 @@
     "framer-motion": "^11.16.4",
     "html2canvas": "^1.4.1",
     "input-otp": "^1.4.2",
+    "jsonwebtoken": "^9.0.3",
     "jspdf": "^4.0.0",
     "lodash": "^4.17.21",
     "lucide-react": "^0.475.0",
     "moment": "^2.30.1",
+    "mongodb": "^7.9.1",
     "next-themes": "^0.4.4",
     "react": "^18.2.0",
     "react-day-picker": "^8.10.1",
@@ -97,5 +102,8 @@
     "tailwindcss": "^3.4.17",
     "typescript": "^5.8.2",
     "vite": "^6.1.0"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }
